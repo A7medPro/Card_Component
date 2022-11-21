@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Outfit", sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  width: 1000px;
+  height: 650px;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  border-radius: 15px;
+  position: relative;
+}
+
+.main {
+  width: 290px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+}
+
+.img-up {
+  margin-left: 20px;
+  margin-top: 18px;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.img-up:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.topic {
+  color: hsl(215, 51%, 70%);
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.two-price {
+  margin-bottom: 15px;
+}
+
+.price-lift {
+  display: inline-block;
+  margin-left: 20px;
+  color: hsl(178, 100%, 50%);
+}
+
+.icon-ethereum {
+  margin-right: 2.5px;
+  vertical-align: text-top;
+}
+
+.price-right {
+  display: inline-block;
+  margin-left: 70px;
+  color: hsl(215, 51%, 70%);
+}
+
+.icon-clock {
+  vertical-align: sub;
+}
+
+hr {
+  border: none;
+  width: 260px;
+  height: 3px;
+  background-color: hsl(215, 32%, 27%);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 35px;
+  border: 1px white solid;
+  border-radius: 50%;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.avatar-name {
+  display: inline-block;
+  color: hsl(215, 51%, 70%);
+  margin-left: 10px;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 55px;
+  left: 37%;
+}
+
+.attribution {
+  font-size: 0.7em;
+  text-align: center;
+  color: hsl(215, 51%, 70%);
+}
+
+.attribution a {
+  color: hsl(228, 100%, 72%);
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.attribution a:hover {
+  font-weight: bold;
+  font-size: 1em;
+  color: hsl(178, 100%, 50%);
+}
+
+@media (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    font-family: "Outfit", sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    width: 105px;
+    height: 215px;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    position: relative;
+  }
+
+  .main {
+    width: 95px;
+    height: 185px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+  }
+
+  .img-up {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+  }
+
+  .img-up:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .title {
+    color: hsl(0, 0%, 100%);
+    margin-top: 5px;
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .title:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
+
+  .topic {
+    color: hsl(215, 51%, 70%);
+    margin-left: 8px;
+    margin-top: -8px;
+    font-size: 5px;
+  }
+
+  .two-price {
+    margin-top: -20px;
+  }
+
+  .price-lift {
+    display: inline-block;
+    margin-left: 8px;
+    color: hsl(178, 100%, 50%);
+    font-size: 5px;
+  }
+
+  .icon-ethereum {
+    vertical-align: middle;
+    width: 5px;
+  }
+
+  .price-right {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 5px;
+    color: hsl(215, 51%, 70%);
+  }
+
+  .icon-clock {
+    vertical-align: middle;
+    width: 5px;
+  }
+
+  hr {
+    border: none;
+    width: 80px;
+    height: 1.5px;
+    background-color: hsl(215, 32%, 27%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    border-radius: 20px;
+  }
+
+  .last {
+    margin-top: -15px;
+  }
+
+  .avatar {
+    width: 15px;
+    border: 1px white solid;
+    border-radius: 50%;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+
+  .avatar-name {
+    display: inline-block;
+    color: hsl(215, 51%, 70%);
+    margin-left: 5px;
+    font-size: 5px;
+  }
+
+  span {
+    color: hsl(0, 0%, 100%);
+  }
+
+  span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
+
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    left: 12px;
+  }
+
+  .attribution {
+    font-size: 3.5px;
+    text-align: center;
+    color: hsl(215, 51%, 70%);
+  }
+
+  .attribution a {
+    color: hsl(228, 100%, 72%);
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+
+  .attribution a:hover {
+    font-weight: bold;
+    font-size: 1em;
+    color: hsl(178, 100%, 50%);
+  }
+}
