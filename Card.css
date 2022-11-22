@@ -49,11 +49,14 @@
   margin-left: 20px;
   margin-bottom: 15px;
   font-weight: 400;
+  transition: 0.3s ease-in;
 }
 
 .title:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
+  transform: scale(1.1);
+  font-size: 1.5em;
 }
 
 .topic {
@@ -114,11 +117,14 @@ hr {
 
 span {
   color: hsl(0, 0%, 100%);
+  transition: 0.3s ease-in;
 }
 
 span:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
+  transform: scale(1.1);
+  font-size: 1.1em;
 }
 
 footer {
@@ -138,12 +144,14 @@ footer {
   color: hsl(228, 100%, 72%);
   text-decoration: none;
   font-size: 0.9em;
+  transition: 0.3s ease-in;
 }
 
 .attribution a:hover {
   font-weight: bold;
   font-size: 1em;
   color: hsl(178, 100%, 50%);
+  transform: scale(1.1);
 }
 
 @media (max-width: 375px) {
